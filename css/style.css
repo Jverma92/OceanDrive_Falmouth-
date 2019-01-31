@@ -1,0 +1,204 @@
+.colorstriptop{
+        border-top: 30px solid #8AB0E5;
+        display: block;
+    }
+body {
+    font-family: "comfortaa";
+    src: url(https://www.dafont.com/comfortaa.font) format("truetype");
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+
+}
+/*Global*/
+.containerA{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+}
+.containerA img{
+    border-radius: 7px;
+}
+
+header{
+     border-top: 5px  #8AB0E5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  
+
+}
+Header img{
+    width:100%;
+    height: auto;
+}
+nav a{
+    color: #8AB0E5;
+    font-size: 20px;
+    cursor:pointer;
+}
+nav li{
+    display: flex;
+    justify-content: center;
+    display:inline;
+    padding: 0 0.5% 0 0.5%;
+}
+nav a:hover{
+    color: #cccccc;
+    text-decoration: none;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+
+}
+.center img{
+    padding: 40px;
+}
+h2, h4 {
+    color: #8AB0E5;
+}
+h2{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#logopanel{
+    
+    justify-content: center;
+    background-color: #8AB0E5;
+    border-radius: 7px;
+    margin:auto;
+    
+}
+#logopanel ul{
+    margin: 0;
+    
+    padding-left:10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#logopanel li{
+    float: left;
+    text-align: center;
+    width: 15%;
+    display: inline;
+    
+    padding: 1% 1% 1% 1%;
+
+}
+#logopanel li img{
+    
+    width:38%;
+    height:auto;
+}
+#logopanel  p{
+    color:#ffffff;
+}
+section{
+    padding:10px;
+}
+.pricelist{
+    padding: 2%;
+    display: block;
+    margin:auto;
+    text-align:center;
+}
+.pricelist img{
+    width:60%;
+}
+.links{
+    float:right;
+}
+.links a{
+    text-decoration: none;
+    color: #ff7373;
+}
+.links a:hover{
+    color: #cccccc;
+}
+footer{
+
+    margin:auto;
+    height: 50px;
+    width: 85%;
+    padding: 3%;
+}
+footer nav{
+    display: flex;
+    justify-content: center;
+}
+
+footer img{
+    float:left;
+    padding: inherit;
+}
+footer ul{
+    float: right;
+}
+.colorstripbottom{
+    border-bottom: 30px solid #8AB0E5;
+    display: block;
+}
+@media only screen and (max-width: 1000px) {
+
+#logopanel ul{
+    margin: 0;
+    padding-left:5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+#logopanel li{
+    float: left;
+    display: inline;
+    padding: 0px;
+
+}
+#logopanel li img{
+    
+    width:50%;
+    height:auto;
+}
+}
+@media only screen and (max-width: 400px) {
+    
+    #logopanel{
+    
+        height: 60px;
+        justify-content: center;
+        background-color: #8AB0E5;
+        border-radius: 7px;
+        margin:auto;
+        
+        
+    }
+    #logopanel ul{
+        margin:0;
+        padding:3%;
+        padding-left:8%;
+    }
+    #logopanel li{
+        text-align: center;
+        width: 15%;
+        padding-left: 20px;
+        display: inline;
+        padding: 1px 1px 1px 1px;
+    
+    }
+    #logopanel li img{
+        
+        width:70%;
+        height: 90%;
+    }
+    .pricelist img{
+        width:100%;
+    }
+  
+  }
